@@ -1,0 +1,141 @@
+html, button, input, select, textarea, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"]{
+    font-family: 'Questrial', sans-serif;
+}
+
+html{
+    background-image: url(vanille.jpg);
+    background-attachment:fixed;
+    overflow-y: scroll;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+header > .home-menu{
+    background: inherit !important;
+    height: 54px;
+    display: flex;
+}
+
+header > .home-menu > a.pure-menu-heading, header > .home-menu > ul, header > .home-menu > ul > li{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    line-height: normal !important;
+}
+
+header > .home-menu > a.pure-menu-heading{
+    color: #000;
+    font-size: 1.5em;
+}
+
+header > .home-menu > a.pure-menu-heading:hover{
+    color: #333;
+    font-size: 1.5em;
+}
+
+header > .home-menu > ul > li > a{
+    color: #000;
+}
+
+header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li > a:focus{
+    background: inherit !important;
+}
+
+header > .home-menu > ul > li > a:hover, header > .home-menu > ul > li.pure-menu-selected > a{
+    color: #333;
+}
+
+main{
+    background-image:url(gris.jpg) ;
+    position: relative;
+    box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.5);   
+}
+
+footer{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 15px;
+    line-height: 24px;
+}
+
+footer a{
+    color: #333;
+    text-decoration: none ;
+}
+
+footer a:hover{
+    color: #333;
+    text-decoration:  underline;
+}
+
+footer iframe{
+    vertical-align: middle;
+}
+
+/*
+CUSTOM CSS
+*/
+
+.fa-heart {
+ color: #ecb4f4;   
+}
+
+.fa-btc {
+ color: #F7931A;   
+}
+
+.fa-comment {
+ color: #318CE7;   
+}
+
+.chartWrapper {
+ background-color: #f2f2f2;
+}
+
+.poolOption:hover {
+ color: #EAE4C0!important;
+}
+
+.miningOption:hover {
+ color: #EAE4C0!important;
+}
+
+.miningOption {
+ background-image:url(gris_fonce.jpg)!important;
+ box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+#coinInfo {
+ background-image:url(vanille.jpg)!important;
+ color: #333!important;
+ box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.5);   
+}
+
+#coinInfoClose:hover {
+ color: #666!important;
+}
+
+#boxWelcome {
+ background-image:url(gris_fonce.jpg)!important;
+ box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+.boxStats {
+ background-image:url(gris_fonce.jpg)!important;
+ box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 0.5);
+}
+
+#menu {
+ background-image:url(gris_fonce.jpg)!important;
+}
+
+
+
+
