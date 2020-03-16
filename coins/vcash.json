@@ -1,0 +1,7 @@
+{
+	"name": "Vcash",
+	"symbol": "XVC",
+	"algorithm": "vanilla",
+	"reward": "POS",
+	"normalHashing": true
+}
