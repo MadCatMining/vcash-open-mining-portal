@@ -48,7 +48,7 @@
         "nonce": "*",
         "redis": "0.12.1",
         "request": "*",
-        "stratum-pool": "git://github.com/MadCatMining/vcash-stratum-pool.git#vcash"
+        "stratum-pool": "git://github.com/MadCatMining/vcash-stratum-pool.git"
     },
     "engines": {
         "node": ">=0.10"
