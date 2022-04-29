@@ -33,7 +33,7 @@
         "url": "https://github.com/MadCatMining/vcash-open-mining-portal.git"
     },
     "dependencies": {
-        "async": "1.5.2",
+        "async": "2.6.4",
         "bignum": "0.12.5",
         "body-parser": "*",
         "colors": "*",
